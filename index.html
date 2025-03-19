@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="getData.js"></script>
+    <script src="main.js"></script>
+    <title>Portfolió</title>
+    <style>
+        
+        body{
+            background: linear-gradient(rgb(230, 255, 255), rgb(170, 255, 255));
+            height: 100%;
+            width: 100%;
+            margin: 0px;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        nav{
+            height: 60px;
+            width: 98vw;
+            margin: 0px;
+            padding: 5px 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-flow: row nowrap;
+            border-bottom: solid 5px rgb(99, 99, 99);
+            background: rgb(255, 248, 237);
+        }
+        ul{
+            display: flex;
+            gap: 25px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo{
+            justify-content: center;
+            align-items: center;
+        }
+        .sectioncont{
+            width: 800px;
+            height: 600px;
+            margin: 120px auto;
+            background: linear-gradient(rgb(255, 251, 245), rgb(255, 248, 237));
+            display: flex;
+            flex-direction: column;
+            gap: 130px;
+            border-radius: 25px;
+            border-bottom: solid 5px rgb(99, 99, 99);
+            border-top: solid 5px rgb(99, 99, 99);
+            box-shadow: 0 3px 30px rgb(0 0 0 / 0.2)
+        }
+        .sect1{
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+        .sect2{
+            height: 50px;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            
+        }
+        .quote{
+            width: 350px;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            margin-top: 80px;
+        }
+        .nav{
+            color: rgb(99, 99, 99);
+            border-right: cyan 3px solid;
+            border-left: cyan 3px solid;
+            padding-left: 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            padding-right: 15px;
+        }
+        .nav:hover{
+            color: rgb(49, 49, 49);
+            border-right: rgb(0, 216, 216) 3px solid;
+            border-left: rgb(0, 216, 216) 3px solid;
+            border-radius: 4px;
+            padding-right: 15px;
+            padding-left: 15px;
+            text-decoration: none;
+        }
+        ul{
+            list-style: none;
+        }
+        .pfp{
+            border: rgb(99, 99, 99) solid 5px;
+            border-radius: 50%;
+            width: 350px;
+            height: 350px;
+        }
+        .btn{
+            text-decoration: none;
+            border-radius: 30px;
+            background: white;
+            border-right: cyan 3px solid;
+            border-left: cyan 3px solid;
+            padding: 15px 60px;
+            color: rgb(75, 75, 75);
+        }
+        .btn:hover{
+            text-decoration: none;
+            border-radius: 15px;
+            border-right: rgb(0, 216, 216) 3px solid;
+            border-left: rgb(0, 216, 216) 3px solid;
+            background: rgb(250, 250, 250);
+            padding: 15px 60px;
+            color: rgb(53, 53, 53);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navcont">
+            <div class="logo"><img src="logo.png" alt="logo" style="width: 90px; height: 60px;"></div>
+            <ul>
+                <li><a href="#about" class="nav">Rólam</a></li>
+                <li><a href="#work" class="nav">Munkáim</a></li>
+                <li><a href="#contact" class="nav">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    
+        <!--hero section-->
+        <section class="sectioncont">  
+            <div class="sect1">
+                <div class="kep">
+                    <img src="Névtelen.png" alt="saját fotó" class="pfp">  
+                </div>
+                <div class="quote">
+                    <h1 style="padding-left: 15px; color: rgb(75, 75, 75);">Nyitrai László</h1>
+                    <blockquote style="border-left: 3px solid cyan; border-right: 3px solid cyan; text-align: justify; color: rgb(99, 99, 99); border-radius: 10px; padding: 5px 15px; width: 250px;">irgéakorhgo erjhgokejrhgokerahg lkrenhgőinreogh irhgoákaerh gőoire irhj géoerijh oreihjgoőierhjgoőierjh goirjh oerjhőoeqrhő</blockquote>
+                </div>
+            </div>
+            <div class="sect2">
+                <a href="#work" class="btn">Rólam</a>
+                <a href="#work" class="btn">Munkáim</a>
+                <a href="#work" class="btn">Kapcsolat</a>
+            </div>     
+        </section>
+    </div>
+</body>
+</html>
