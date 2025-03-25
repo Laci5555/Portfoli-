@@ -1,0 +1,68 @@
+[
+    {
+        "id": "1",
+        "title": "Ingatlaniroda",
+        "photo_url": "https://res.cloudinary.com/drhhiqyci/image/upload/v1742660688/ingatlaniroda_senoia.png",
+        "repo-link": "https://github.com/Laci5555/Portfoli-",
+        "topics": [
+            "fetch API",
+            "Set adatszerkezet",
+            "Array.from()",
+            "radió gombok használata",
+            "checkboxok használata",
+            "select használata"
+        ],
+        "site-link": "https://voteappkam.netlify.app/"
+    },
+    {
+        "id": "2",
+        "title": "Products",
+        "photo_url": "https://res.cloudinary.com/drhhiqyci/image/upload/v1742660688/products_fheu6x.png",
+        "repo-link": "https://github.com/Laci5555/Portfoli-",
+        "topics": [
+            "fetch API",
+            "checkboxok használata",
+            "Reszponzív design",
+            "Javascript függvények"
+        ],
+        "site-link": "https://voteappkam.netlify.app/"
+    },
+    {
+        "id": "3",
+        "title": "Virágbolt",
+        "photo_url": "https://res.cloudinary.com/drhhiqyci/image/upload/v1742660688/viragbolt_phgyus.png",
+        "repo-link": "https://github.com/Laci5555/Portfoli-",
+        "topics": [
+            "Fetch API használata",
+            "adatok programozott renderelése",
+            "reszponzív design"    
+        ],
+        "site-link": "https://voteappkam.netlify.app/"
+    },
+    {
+        "id": "4",
+        "title": "Profilkártya",
+        "photo_url": "https://res.cloudinary.com/drhhiqyci/image/upload/v1742660688/szerkesztes_zwqlmk.png",
+        "repo-link": "https://github.com/Laci5555/Portfoli-",
+        "topics": [
+            "Reszponzív design",
+            "Flexbox vs grid elrendezés",
+            "Objektumok destrukturálása",
+            "Popover"
+        ],
+        "site-link": "https://voteappkam.netlify.app/"
+    },
+    {
+        "id": "5",
+        "title": "Autókölcsönző kalkulátor",
+        "photo_url": "https://res.cloudinary.com/drhhiqyci/image/upload/v1742660688/autoberles_kqqmev.png",
+        "repo-link": "https://github.com/Laci5555/Portfoli-",
+        "topics": [
+            "Javascript függvények", 
+            "Modularitás, tiszta kód",
+            "Reszponzív design",
+            "Tömbfüggvények"
+        ],
+        "site-link": "https://voteappkam.netlify.app/"
+    }
+]
