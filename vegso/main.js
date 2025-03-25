@@ -19,7 +19,7 @@ function renderData(data){
                     <ul class="ul">
                         ${topicsListItems}
                     </ul>
-                    <a href="https://github.com/Laci5555/portfolio_json">Github link</a>
+                    <a href="https://github.com/Laci5555/Portfoli-">Github link</a>
                     <a href="https://voteappkam.netlify.app/">Weboldal link</a>
                 </div>
             </div>
